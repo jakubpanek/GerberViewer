@@ -1,0 +1,10 @@
+/Users/jakubpanek/Desktop/GerberViewer/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/jakubpanek/Desktop/GerberViewer/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/jakubpanek/Desktop/GerberViewer/cmake-build-debug/CMakeFiles/imgui.dir
+/Users/jakubpanek/Desktop/GerberViewer/cmake-build-debug/CMakeFiles/glad.dir
+/Users/jakubpanek/Desktop/GerberViewer/cmake-build-debug/CMakeFiles/GerberViewer.dir
+/Users/jakubpanek/Desktop/GerberViewer/cmake-build-debug/lib/glfw/CMakeFiles/rebuild_cache.dir
+/Users/jakubpanek/Desktop/GerberViewer/cmake-build-debug/lib/glfw/CMakeFiles/edit_cache.dir
+/Users/jakubpanek/Desktop/GerberViewer/cmake-build-debug/lib/glfw/src/CMakeFiles/rebuild_cache.dir
+/Users/jakubpanek/Desktop/GerberViewer/cmake-build-debug/lib/glfw/src/CMakeFiles/edit_cache.dir
+/Users/jakubpanek/Desktop/GerberViewer/cmake-build-debug/lib/glfw/src/CMakeFiles/glfw.dir

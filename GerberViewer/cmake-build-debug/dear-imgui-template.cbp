@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="dear-imgui-template"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\lib\;CMake Files\lib\glfw\;CMake Files\lib\glfw\CMake\;CMake Files\lib\glfw\src\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/jakubpanek/Desktop/GerberViewer/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/jakubpanek/Desktop/GerberViewer/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/jakubpanek/Desktop/GerberViewer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/jakubpanek/Desktop/GerberViewer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/jakubpanek/Desktop/GerberViewer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/jakubpanek/Desktop/GerberViewer/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/jakubpanek/Desktop/GerberViewer/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/jakubpanek/Desktop/GerberViewer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/jakubpanek/Desktop/GerberViewer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/jakubpanek/Desktop/GerberViewer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/jakubpanek/Desktop/GerberViewer/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/jakubpanek/Desktop/GerberViewer/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/jakubpanek/Desktop/GerberViewer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/jakubpanek/Desktop/GerberViewer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/jakubpanek/Desktop/GerberViewer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="imgui">
+				<Option output="/Users/jakubpanek/Desktop/GerberViewer/cmake-build-debug/libimgui.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jakubpanek/Desktop/GerberViewer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/jakubpanek/Desktop/GerberViewer/lib/imgui/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/jakubpanek/Desktop/GerberViewer/cmake-build-debug/Makefile&quot;  VERBOSE=1 imgui"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/jakubpanek/Desktop/GerberViewer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/jakubpanek/Desktop/GerberViewer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/jakubpanek/Desktop/GerberViewer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="imgui/fast">
+				<Option output="/Users/jakubpanek/Desktop/GerberViewer/cmake-build-debug/libimgui.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jakubpanek/Desktop/GerberViewer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/jakubpanek/Desktop/GerberViewer/lib/imgui/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/jakubpanek/Desktop/GerberViewer/cmake-build-debug/Makefile&quot;  VERBOSE=1 imgui/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/jakubpanek/Desktop/GerberViewer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/jakubpanek/Desktop/GerberViewer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/jakubpanek/Desktop/GerberViewer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glad">
+				<Option output="/Users/jakubpanek/Desktop/GerberViewer/cmake-build-debug/libglad.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jakubpanek/Desktop/GerberViewer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/jakubpanek/Desktop/GerberViewer/lib/glad/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/jakubpanek/Desktop/GerberViewer/cmake-build-debug/Makefile&quot;  VERBOSE=1 glad"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/jakubpanek/Desktop/GerberViewer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/jakubpanek/Desktop/GerberViewer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/jakubpanek/Desktop/GerberViewer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glad/fast">
+				<Option output="/Users/jakubpanek/Desktop/GerberViewer/cmake-build-debug/libglad.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jakubpanek/Desktop/GerberViewer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/jakubpanek/Desktop/GerberViewer/lib/glad/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/jakubpanek/Desktop/GerberViewer/cmake-build-debug/Makefile&quot;  VERBOSE=1 glad/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/jakubpanek/Desktop/GerberViewer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/jakubpanek/Desktop/GerberViewer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/jakubpanek/Desktop/GerberViewer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dear-imgui-template">
+				<Option output="/Users/jakubpanek/Desktop/GerberViewer/cmake-build-debug/dear-imgui-template" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jakubpanek/Desktop/GerberViewer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLFW_INCLUDE_NONE"/>
+					<Add directory="/Users/jakubpanek/Desktop/GerberViewer/lib/glad/include"/>
+					<Add directory="/Users/jakubpanek/Desktop/GerberViewer/lib/glfw/include"/>
+					<Add directory="/Users/jakubpanek/Desktop/GerberViewer/lib/imgui/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/jakubpanek/Desktop/GerberViewer/cmake-build-debug/Makefile&quot;  VERBOSE=1 dear-imgui-template"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/jakubpanek/Desktop/GerberViewer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/jakubpanek/Desktop/GerberViewer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/jakubpanek/Desktop/GerberViewer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dear-imgui-template/fast">
+				<Option output="/Users/jakubpanek/Desktop/GerberViewer/cmake-build-debug/dear-imgui-template" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jakubpanek/Desktop/GerberViewer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLFW_INCLUDE_NONE"/>
+					<Add directory="/Users/jakubpanek/Desktop/GerberViewer/lib/glad/include"/>
+					<Add directory="/Users/jakubpanek/Desktop/GerberViewer/lib/glfw/include"/>
+					<Add directory="/Users/jakubpanek/Desktop/GerberViewer/lib/imgui/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/jakubpanek/Desktop/GerberViewer/cmake-build-debug/Makefile&quot;  VERBOSE=1 dear-imgui-template/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/jakubpanek/Desktop/GerberViewer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/jakubpanek/Desktop/GerberViewer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/jakubpanek/Desktop/GerberViewer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glfw">
+				<Option output="/Users/jakubpanek/Desktop/GerberViewer/cmake-build-debug/lib/glfw/src/libglfw3.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jakubpanek/Desktop/GerberViewer/cmake-build-debug/lib/glfw/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GLFW_USE_CONFIG_H"/>
+					<Add directory="/Users/jakubpanek/Desktop/GerberViewer/lib/glfw/include"/>
+					<Add directory="/Users/jakubpanek/Desktop/GerberViewer/lib/glfw/src"/>
+					<Add directory="/Users/jakubpanek/Desktop/GerberViewer/cmake-build-debug/lib/glfw/src"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/jakubpanek/Desktop/GerberViewer/cmake-build-debug/lib/glfw/src/Makefile&quot;  VERBOSE=1 glfw"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/jakubpanek/Desktop/GerberViewer/cmake-build-debug/lib/glfw/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/jakubpanek/Desktop/GerberViewer/cmake-build-debug/lib/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/jakubpanek/Desktop/GerberViewer/cmake-build-debug/lib/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glfw/fast">
+				<Option output="/Users/jakubpanek/Desktop/GerberViewer/cmake-build-debug/lib/glfw/src/libglfw3.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jakubpanek/Desktop/GerberViewer/cmake-build-debug/lib/glfw/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GLFW_USE_CONFIG_H"/>
+					<Add directory="/Users/jakubpanek/Desktop/GerberViewer/lib/glfw/include"/>
+					<Add directory="/Users/jakubpanek/Desktop/GerberViewer/lib/glfw/src"/>
+					<Add directory="/Users/jakubpanek/Desktop/GerberViewer/cmake-build-debug/lib/glfw/src"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/jakubpanek/Desktop/GerberViewer/cmake-build-debug/lib/glfw/src/Makefile&quot;  VERBOSE=1 glfw/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/jakubpanek/Desktop/GerberViewer/cmake-build-debug/lib/glfw/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/jakubpanek/Desktop/GerberViewer/cmake-build-debug/lib/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/jakubpanek/Desktop/GerberViewer/cmake-build-debug/lib/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/jakubpanek/Desktop/GerberViewer/cmake-build-debug/lib/glfw/src/glfw_config.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/jakubpanek/Desktop/GerberViewer/lib/glad/src/glad.c">
+			<Option target="glad"/>
+		</Unit>
+		<Unit filename="/Users/jakubpanek/Desktop/GerberViewer/lib/glfw/include/GLFW/glfw3.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/jakubpanek/Desktop/GerberViewer/lib/glfw/include/GLFW/glfw3native.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/jakubpanek/Desktop/GerberViewer/lib/glfw/src/cocoa_init.m">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/jakubpanek/Desktop/GerberViewer/lib/glfw/src/cocoa_joystick.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/jakubpanek/Desktop/GerberViewer/lib/glfw/src/cocoa_joystick.m">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/jakubpanek/Desktop/GerberViewer/lib/glfw/src/cocoa_monitor.m">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/jakubpanek/Desktop/GerberViewer/lib/glfw/src/cocoa_platform.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/jakubpanek/Desktop/GerberViewer/lib/glfw/src/cocoa_time.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/jakubpanek/Desktop/GerberViewer/lib/glfw/src/cocoa_window.m">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/jakubpanek/Desktop/GerberViewer/lib/glfw/src/context.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/jakubpanek/Desktop/GerberViewer/lib/glfw/src/egl_context.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/jakubpanek/Desktop/GerberViewer/lib/glfw/src/egl_context.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/jakubpanek/Desktop/GerberViewer/lib/glfw/src/init.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/jakubpanek/Desktop/GerberViewer/lib/glfw/src/input.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/jakubpanek/Desktop/GerberViewer/lib/glfw/src/internal.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/jakubpanek/Desktop/GerberViewer/lib/glfw/src/mappings.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/jakubpanek/Desktop/GerberViewer/lib/glfw/src/monitor.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/jakubpanek/Desktop/GerberViewer/lib/glfw/src/nsgl_context.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/jakubpanek/Desktop/GerberViewer/lib/glfw/src/nsgl_context.m">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/jakubpanek/Desktop/GerberViewer/lib/glfw/src/osmesa_context.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/jakubpanek/Desktop/GerberViewer/lib/glfw/src/osmesa_context.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/jakubpanek/Desktop/GerberViewer/lib/glfw/src/posix_thread.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/jakubpanek/Desktop/GerberViewer/lib/glfw/src/posix_thread.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/jakubpanek/Desktop/GerberViewer/lib/glfw/src/vulkan.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/jakubpanek/Desktop/GerberViewer/lib/glfw/src/window.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/jakubpanek/Desktop/GerberViewer/lib/imgui/src/imgui.cpp">
+			<Option target="imgui"/>
+		</Unit>
+		<Unit filename="/Users/jakubpanek/Desktop/GerberViewer/lib/imgui/src/imgui_demo.cpp">
+			<Option target="imgui"/>
+		</Unit>
+		<Unit filename="/Users/jakubpanek/Desktop/GerberViewer/lib/imgui/src/imgui_draw.cpp">
+			<Option target="imgui"/>
+		</Unit>
+		<Unit filename="/Users/jakubpanek/Desktop/GerberViewer/lib/imgui/src/imgui_widgets.cpp">
+			<Option target="imgui"/>
+		</Unit>
+		<Unit filename="/Users/jakubpanek/Desktop/GerberViewer/src/main.cpp">
+			<Option target="dear-imgui-template"/>
+		</Unit>
+		<Unit filename="/Users/jakubpanek/Desktop/GerberViewer/vendor/imgui_impl_glfw.cpp">
+			<Option target="dear-imgui-template"/>
+		</Unit>
+		<Unit filename="/Users/jakubpanek/Desktop/GerberViewer/vendor/imgui_impl_glfw.h">
+			<Option target="dear-imgui-template"/>
+		</Unit>
+		<Unit filename="/Users/jakubpanek/Desktop/GerberViewer/vendor/imgui_impl_opengl3.cpp">
+			<Option target="dear-imgui-template"/>
+		</Unit>
+		<Unit filename="/Users/jakubpanek/Desktop/GerberViewer/vendor/imgui_impl_opengl3.h">
+			<Option target="dear-imgui-template"/>
+		</Unit>
+		<Unit filename="/Users/jakubpanek/Desktop/GerberViewer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/jakubpanek/Desktop/GerberViewer/lib/glfw/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\glfw\"/>
+		</Unit>
+		<Unit filename="/Users/jakubpanek/Desktop/GerberViewer/lib/glfw/CMake/glfw3.pc.in">
+			<Option virtualFolder="CMake Files\lib\glfw\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/jakubpanek/Desktop/GerberViewer/lib/glfw/CMake/glfw3Config.cmake.in">
+			<Option virtualFolder="CMake Files\lib\glfw\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/jakubpanek/Desktop/GerberViewer/lib/glfw/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\glfw\src\"/>
+		</Unit>
+		<Unit filename="/Users/jakubpanek/Desktop/GerberViewer/lib/glfw/src/glfw_config.h.in">
+			<Option virtualFolder="CMake Files\lib\glfw\src\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
